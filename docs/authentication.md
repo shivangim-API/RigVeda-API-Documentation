@@ -1,21 +1,9 @@
-# API Endpoints & Parameters
+# Authentication
 
-## Endpoint: Get Rig Veda Verses
-**URL:**  
+The Rig Veda API is **open** and does not require authentication for now.
 
-https://sheetlabs.com/IND/rv
-
-**Method:**  
-`GET`
-
-### Query Parameters
-| Parameter         | Type      | Description                              |
-|------------------|-----------|------------------------------------------|
-| `mandal`         | Integer   | Mandal (Book) number (1-10)               |
-| `sukta`          | Integer   | Sukta (Hymn) number (1-191)                |
-| `sungby`         | String    | Composer name (up to 100 characters)      |
-| `sungbycategory` | String    | Composer category (e.g., human male)      |
-| `sungfor`        | String    | God, person, or object verse is for       |
-| `sungforcategory`| String    | Subject category (e.g., divine male)      |
-| `meter`          | String    | Verse meter (e.g., Trishtubh)             |
-
+### Future Considerations
+In future versions, authentication may be required using:
+- API Keys
+- OAuth 2.0
+- JWT Authentication
